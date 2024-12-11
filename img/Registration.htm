@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Registration</title>
+
+		<style>
+			.align-center {
+				display: flex;
+				justify-content: center;
+			}
+
+			.align-right {
+				display: flex;
+				justify-content: right;
+			}
+
+			.icon {
+				width: 25px;
+				height: 25px;
+			}
+		</style>
+	</head>
+
+	<body style="width: 500px; height: 656px; font-family: sans-serif; padding: 25px">
+		<!-- ЗАКРИТИ -->
+		<div class="align-right">
+			<button type="button">
+				<img src="Registration_files/close_icon.svg" alt="close icon" class="icon">
+			</button>
+		</div>
+
+		<!-- ТИП ФОРМИ -->
+		<div class="align-center">
+			<a href="">Login</a>
+			<span style="margin-left: 15px; margin-right: 15px"> | </span>
+			<a href=""> Register</a>
+		</div>
+
+		<table class="align-center" style="margin-bottom: 50px">
+			<!-- ПІДКАЗКА -->
+			<tbody><tr>
+				<td>
+					<span>Enter your email and password to register.</span>
+				</td>
+			</tr>
+
+			<!-- ІМ'Я КОРИСТУВАЧА -->
+			<tr>
+				<td>
+					<input type="text" name="username" placeholder="Username" required="" style="padding: 5%; width: 275px;">
+				</td>
+			</tr>
+
+			<!-- Е-ПОШТА -->
+			<tr>
+				<td>
+					<input type="text" name="email" placeholder="Enter your email address" required="">
+				</td>
+			</tr>
+
+			<!-- ПАРОЛЬ -->
+			<tr>
+				<td>
+					<input type="text" name="password" placeholder="Password" required="">
+				</td>
+			</tr>
+
+			<!-- ПІДТВЕРДІТЬ ПАРОЛЬ -->
+			<tr>
+				<td>
+					<input type="text" name="password" placeholder="Confirm Password" required="">
+				</td>
+			</tr>
+		</tbody></table>
+
+		<!-- ЗАРЕЄСТРУВАТИСЬ -->
+		<button type="submit" style="margin: auto">
+			Register
+		</button>
+
+		<!-- ПІДКАЗКА ЗАРЕЄСТРУВАТИСЬ З -->
+		<div style="margin-bottom: 50px; margin-left: auto; margin-right: auto">
+			<table>
+				<tbody><tr>
+					<td style="width: 100px"><hr></td>
+					<td>Or register with</td>
+					<td style="width: 100px"><hr></td>
+				</tr>
+			</tbody></table>
+		</div>
+
+		<!-- GOOGLE -->
+		<div>
+			<button type="button">
+				<img src="Registration_files/google_logo.svg" alt="Google logo image" class="icon">
+				Continue with Google
+			</button>
+		</div>
+
+		<!-- FACEBOOK -->
+		<div>
+			<button type="button">
+				<img src="Registration_files/facebook_logo.svg" alt="Facebook logo image" class="icon">
+				Continue with Facebook
+			</button>
+		</div>
+	<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
