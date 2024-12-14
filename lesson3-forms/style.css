@@ -1,4 +1,4 @@
-/* CSS RESET */
+/* CSS RESET start */
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +7,33 @@
 	font: inherit;
 	vertical-align: baseline;
 }
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET end */
 
 .align-center {
 	display: flex;
