@@ -36,12 +36,11 @@ table {
 }
 /* --- CSS RESET end --- */
 
-body {
+.register-card {
 	font-family: sans-serif;
 	font-size: 16px;
 	width: 550px;
 	height: 656px;
-	padding: 25px;
 }
 
 a {
