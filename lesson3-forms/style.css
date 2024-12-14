@@ -150,11 +150,12 @@ a {
 }
 
 .line {
-	width: 100px;
-	border: 1px;
+	width: 100%;
 	margin-left: 15px;
 	margin-right: 15px;
-	color: black;
+	border: 1px;
+	border-style: solid;
+	color: #dedede;
 }
 
 .register-card-content {
@@ -165,4 +166,19 @@ a {
 .form-fields > div,
 .button-loginWith {
 	margin-bottom: 15px;
+}
+
+.register-with {
+	display: flex;
+	align-items: center;
+}
+
+.register-with > div {
+	flex: 1; /* Лінії розтягуються для заповнення простору */
+	height: 1px; /* Товщина лінії */
+	background-color: #dedede; /* Колір лінії */
+}
+
+.register-with > span {
+	margin: 0px 10px;
 }
