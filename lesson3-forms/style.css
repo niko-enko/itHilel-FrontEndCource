@@ -62,6 +62,7 @@ table {
 a {
 	font-weight: 600;
 	font-size: 24px;
+	text-decoration: none;
 }
 
 .align-center {
@@ -131,10 +132,4 @@ a {
 	margin-left: 15px;
 	margin-right: 15px;
 	color: #ebebeb;
-}
-
-.link {
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 24px;
 }
