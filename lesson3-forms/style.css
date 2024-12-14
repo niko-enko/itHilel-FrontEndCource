@@ -1,4 +1,4 @@
-/* CSS RESET start */
+/* --- CSS RESET start --- */
 * {
 	margin: 0;
 	padding: 0;
@@ -33,7 +33,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* CSS RESET end */
+/* --- CSS RESET end --- */
 
 .align-center {
 	display: flex;
