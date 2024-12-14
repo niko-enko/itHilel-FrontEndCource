@@ -7,6 +7,7 @@
 	font: inherit;
 	vertical-align: baseline;
 	outline: none;
+	box-sizing: border-box;
 }
 
 body {
@@ -84,6 +85,7 @@ a {
 .icon {
 	width: 25px;
 	height: 25px;
+	margin-right: 5px;
 }
 
 .margin-bottom-25 {
@@ -110,16 +112,18 @@ a {
 }
 
 .button-register {
-	padding: 15px 140px;
+	padding: 12px 14px;
 	background-color: #46a358;
 	border-radius: 7px;
-	border-width: 0px;
+	border-style: none;
 	color: white;
+	width: 300px;
 }
 
 .button-loginWith {
 	padding: 10px 15%;
 	background-color: #ffffff;
+	border-style: solid;
 	border-radius: 7px;
 	border-width: 1px;
 	color: black;
