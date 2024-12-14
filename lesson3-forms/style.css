@@ -8,7 +8,6 @@
 	vertical-align: baseline;
 	outline: none;
 	box-sizing: border-box;
-	width: 100%;
 }
 
 body {
@@ -101,12 +100,18 @@ a {
 	margin-bottom: 15px;
 }
 
+.form-type {
+	display: flex;
+	justify-content: center;
+}
+
 .input-form {
 	padding: 12px 14px;
 	border-radius: 7px;
 	border-style: solid;
 	border-color: #dedede;
 	border-width: 1px;
+	width: 100%;
 }
 
 .input-form:focus {
@@ -121,6 +126,7 @@ a {
 	border-radius: 7px;
 	border-style: none;
 	color: white;
+	width: 100%;
 }
 
 .button-loginWith {
@@ -133,6 +139,7 @@ a {
 	display: flex;
 	justify-content: baseline;
 	align-content: baseline;
+	width: 100%;
 }
 
 .button-close {
