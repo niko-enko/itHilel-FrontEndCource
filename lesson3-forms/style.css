@@ -60,6 +60,13 @@ table {
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+body,
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 a {
 	font-weight: 600;
 	font-size: 24px;
@@ -67,7 +74,7 @@ a {
 }
 
 .width-300 {
-	width: 370px;
+	width: 320px;
 }
 
 .separator {
@@ -87,9 +94,13 @@ a {
 }
 
 .icon {
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	margin-right: 5px;
+}
+
+#close-ico {
+	margin: 0;
 }
 
 .margin-bottom-25 {
@@ -100,19 +111,27 @@ a {
 	margin-bottom: 15px;
 }
 
-.input-form {
+.input-form,
+.button-loginWith {
 	padding: 12px 14px;
 	border-radius: 7px;
 	border-style: solid;
 	border-color: #dedede;
 	border-width: 1px;
 	width: 100%;
+	background-color: transparent;
+}
+
+.button-loginWith {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .input-form:focus {
 	border-color: #46a358;
 	border-width: 2px;
-	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	box-shadow: #00000026 1.95px 1.95px 2.6px;
 }
 
 .button-register {
@@ -125,19 +144,6 @@ a {
 	height: 45px;
 }
 
-.button-loginWith {
-	padding: 10px 15%;
-	background-color: #ffffff;
-	border-style: solid;
-	border-radius: 7px;
-	border-width: 1px;
-	color: black;
-	display: flex;
-	justify-content: baseline;
-	align-content: baseline;
-	width: 100%;
-}
-
 .button-close {
 	background-color: white;
 	border-width: 0px;
@@ -145,12 +151,18 @@ a {
 
 .line {
 	width: 100px;
+	border: 1px;
 	margin-left: 15px;
 	margin-right: 15px;
-	color: #ebebeb;
+	color: black;
 }
 
 .register-card-content {
 	display: flex;
 	justify-content: center;
+}
+
+.form-fields > div,
+.button-loginWith {
+	margin-bottom: 15px;
 }
