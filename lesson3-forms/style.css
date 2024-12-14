@@ -6,6 +6,7 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	outline: none;
 }
 
 body {
@@ -78,6 +79,12 @@ a {
 	border-style: solid;
 	border-color: #dedede;
 	border-width: 1px;
+}
+
+.input-form:focus {
+	border-color: #46a358;
+	border-width: 2px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .button-register {
