@@ -1,0 +1,79 @@
+/* CSS RESET */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.align-center {
+	display: flex;
+	justify-content: center;
+}
+
+.align-right {
+	display: flex;
+	justify-content: right;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+}
+
+.margin-bottom-25 {
+	margin-bottom: 30px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 15px;
+}
+
+.input-form {
+	padding: 12px 14px;
+	width: 300px;
+	border-radius: 7px;
+	border-width: 1px;
+	font-size: 16px;
+}
+
+.button-register {
+	padding: 15px 140px;
+	font-size: 16px;
+	background-color: #46a358;
+	border-radius: 7px;
+	border-width: 0px;
+	color: white;
+}
+
+.button-loginWith {
+	padding: 10px 15%;
+	font-size: 16px;
+	background-color: #ffffff;
+	border-radius: 7px;
+	border-width: 1px;
+	color: black;
+	display: flex;
+	justify-content: baseline;
+	align-content: baseline;
+}
+
+.button-close {
+	background-color: white;
+	border-width: 0px;
+}
+
+.line {
+	width: 100px;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #ebebeb;
+}
+
+.link {
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 24px;
+}
