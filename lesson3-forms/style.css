@@ -67,7 +67,7 @@ a {
 }
 
 .width-300 {
-	width: 300px;
+	width: 370px;
 }
 
 .separator {
@@ -98,11 +98,6 @@ a {
 
 .margin-bottom-10 {
 	margin-bottom: 15px;
-}
-
-.form-type {
-	display: flex;
-	justify-content: center;
 }
 
 .input-form {
@@ -152,4 +147,9 @@ a {
 	margin-left: 15px;
 	margin-right: 15px;
 	color: #ebebeb;
+}
+
+.register-card-content {
+	display: flex;
+	justify-content: center;
 }
