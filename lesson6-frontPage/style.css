@@ -45,8 +45,3 @@ body {
 	align-items: flex-start;
 	gap: 12px;
 }
-
-.content {
-	width: 80%;
-	display: flex;
-}
