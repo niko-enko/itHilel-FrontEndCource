@@ -92,9 +92,8 @@ body {
 	flex-direction: row;
 }
 
-.main__textBlock__text {
+.main__textBlock {
 	display: flex;
 	flex-direction: column;
 	gap: 45px;
 }
-
