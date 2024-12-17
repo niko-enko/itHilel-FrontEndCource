@@ -36,3 +36,8 @@ table {
 	border-spacing: 0;
 }
 /* --- CSS RESET end --- */
+
+.content {
+	width: 80%;
+	display: flex;
+}
