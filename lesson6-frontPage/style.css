@@ -45,3 +45,7 @@ body {
 	align-items: flex-start;
 	gap: 12px;
 }
+
+.header {
+	height: 55px;
+}
