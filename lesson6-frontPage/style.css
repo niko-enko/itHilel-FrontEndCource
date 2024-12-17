@@ -47,4 +47,5 @@ body {
 
 .header {
 	height: 55px;
+	display: inherit;
 }
