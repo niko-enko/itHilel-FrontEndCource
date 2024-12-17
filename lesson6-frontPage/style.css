@@ -37,6 +37,15 @@ table {
 }
 /* --- CSS RESET end --- */
 
+body {
+	display: flex;
+	width: 1440px;
+	padding: 30px 119.999px 52px 120px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+}
+
 .content {
 	width: 80%;
 	display: flex;
