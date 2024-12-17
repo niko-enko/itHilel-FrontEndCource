@@ -69,9 +69,13 @@ body {
 	border-bottom: 2px solid;
 	border-color: #46a358;
 }
-
+.header__loginButton {
+	display: flex;
+	align-items: center;
+}
 .header__loginButton > button {
 	display: flex;
+	align-items: center;
 	gap: 5px;
 	padding: 8px 20px;
 	border: none;
