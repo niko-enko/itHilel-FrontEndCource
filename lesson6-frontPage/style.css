@@ -91,3 +91,10 @@ body {
 	display: flex;
 	flex-direction: row;
 }
+
+.main__textBlock__text {
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+}
+
