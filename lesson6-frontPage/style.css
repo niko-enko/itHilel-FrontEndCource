@@ -52,5 +52,14 @@ body {
 
 .header__navigation {
 	display: inherit;
-	gap: 5%;
+	gap: 25%;
+}
+
+.header__navigation__tab + div {
+	width: auto;
+}
+
+.header__navigation__tab {
+	border-bottom: 1px solid;
+	border-color: #46a358;
 }
