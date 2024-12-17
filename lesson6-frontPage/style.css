@@ -49,3 +49,8 @@ body {
 	height: 55px;
 	display: inherit;
 }
+
+.header__navigation {
+	display: inherit;
+	gap: 5%;
+}
